@@ -1,38 +1,230 @@
 .App {
-  text-align: center;
+  background: linear-gradient(
+    180deg,
+    #fff7f3 8.17%,
+    #f7f3ff 24.85%,
+    #ffffec 41.63%,
+    #ffeded 58.3%,
+    #efffe9 74.97%,
+    #dff9ff 91.59%
+  );
+  background-blend-mode: lighten;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Style2 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+position: absolute;
+width: 2032px;
+height: 2000px;
+left: 0px;
+top: 0px;
+*/
 
-.App-link {
-  color: #61dafb;
-}
+/* Vector 32 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+position: absolute;
+width: 948.5px;
+height: 836.22px;
+left: 0px;
+top: 1163.78px;
+
+background: #FCEDD1;
+filter: blur(200px);
+*/
+
+/* Vector 32 
+
+position: absolute;
+width: 1072px;
+height: 760.8px;
+left: 960px;
+top: 0px;
+
+background: #FFF6C5;
+filter: blur(100px);
+*/
+
+/* Rectangle 30
+
+position: absolute;
+width: 783px;
+height: 730px;
+left: 568px;
+top: 628px;
+
+background: rgba(255, 233, 199, 0.4);
+border-radius: 150px; */
+
+/* Rectangle 34 
+
+position: absolute;
+width: 579px;
+height: 103px;
+left: 680px;
+top: 1044px;
+
+background: #F88215;
+border-radius: 30px;
+*/
+
+/* Rectangle 35 
+
+position: absolute;
+width: 579px;
+height: 103px;
+left: 680px;
+top: 858px;
+
+background: #FFFFFF;
+border-radius: 30px;
+
+*/
+/* Job applier 
+
+position: absolute;
+width: 328px;
+height: 64px;
+left: 707px;
+top: 1070px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+*/
+
+/* Rectangle 37 
+
+position: absolute;
+width: 315px;
+height: 103px;
+left: 812px;
+top: 1201px;
+
+background: #1B7FF0;
+border-radius: 30px;
+*/
+
+/* SIGN UP 
+
+position: absolute;
+width: 146px;
+height: 44px;
+left: 894px;
+top: 1226px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;*/
+/* identical to box height 
+
+color: #FFFFFF;
+*/
+
+/* THESTUDENT 
+
+position: absolute;
+width: 244px;
+height: 44px;
+left: 865px;
+top: 747px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height 
+
+color: #000000;*/
+
+/* UnionLogo 
+
+position: absolute;
+width: 52.96px;
+height: 66.47px;
+left: 812px;
+top: 734px;
+*/
+
+/* Union 
+
+position: absolute;
+left: 3.67%;
+right: 1.69%;
+top: 1.93%;
+bottom: 0.4%;
+
+background: #333333;
+*/
+
+/* Vector 16 
+
+position: absolute;
+left: 80.37%;
+right: -44.94%;
+top: 98.09%;
+bottom: -43.13%;
+
+border: 2px solid #333333;
+transform: rotate(-180deg);
+*/
+
+/* Vector 15 
+
+position: absolute;
+left: 31.85%;
+right: 3.57%;
+top: 12.79%;
+bottom: 42.18%;
+
+border: 2px solid #333333;
+*/
+
+/* Vector 17 
+
+position: absolute;
+left: 7.34%;
+right: 26.72%;
+top: 5.8%;
+bottom: 4.89%;
+
+border: 3px solid #333333;
+*/
+
+/* Vector 18 
+
+position: absolute;
+left: 52.06%;
+right: 14.96%;
+top: 63.72%;
+bottom: 28.33%;
+
+border: 1px solid #333333;
+transform: matrix(0.85, 0.36, -0.64, 0.9, 0, 0);
+*/
+
+/* Job searcher 
+
+position: absolute;
+width: 253px;
+height: 48px;
+left: 708px;
+top: 882px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+*/

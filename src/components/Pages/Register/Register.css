@@ -1,0 +1,181 @@
+/* .register {
+  position: absolute;
+  margin: 10rem 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff1e1;
+  border-radius: 60px;
+  width: 500px;
+  height: 700px;
+} */
+
+.register h1 {
+  color: rgb(67, 67, 167);
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.job {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 483px;
+  height: 400px;
+  margin: 20rem 35%;
+  background: rgba(255, 233, 199, 0.4);
+  border-radius: 150px;
+}
+
+button[type="button"] {
+  width: 344px;
+  height: 55px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 70px;
+  border-radius: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: start;
+  cursor: pointer;
+}
+
+button[type="button"]:focus {
+  color: #fff;
+  background: #f88215;
+}
+
+.job .sign {
+  width: 146px;
+  height: 44px;
+  margin-left: 170px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 10px;
+  color: #ffffff;
+  background: #1b7ff0;
+}
+
+.contentBx {
+  margin-top: 5rem;
+}
+
+.values {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 1rem;
+  width: 344px;
+  height: 55px;
+  padding: 15px;
+  border-radius: 30px;
+  background: #fff;
+}
+
+input[type="submit"] {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"].account {
+  background: #1b7ff0;
+}
+
+input[type="submit"].account:hover {
+  background: rgb(112, 231, 247);
+  color: #000000;
+  transition-property: all 0.4s;
+}
+input[type="submit"].google {
+  background: #bb370d;
+  margin-bottom: 2rem;
+}
+
+input[type="submit"].google:hover {
+  background: rgb(247, 189, 112);
+  color: #000000;
+  transition-property: all 0.4s;
+}
+
+.register img {
+  z-index: 1;
+  position: absolute;
+  width: 27px;
+  height: 28px;
+  left: 130px;
+  top: 36.3rem;
+}
+
+.register .separed .right {
+  position: absolute;
+  width: 150px;
+  height: 0px;
+  left: 69px;
+  top: 32rem;
+  border: 1px solid #000000;
+  transform: rotate(0.28deg);
+}
+
+.register .separed {
+  margin: 7rem;
+}
+
+.register .separed .left {
+  position: absolute;
+  width: 150px;
+  height: 0px;
+  left: 300px;
+  top: 32rem;
+  border: 1px solid #000000;
+  transform: rotate(0.28deg);
+}
+
+.register .separed .or {
+  position: absolute;
+  width: 35px;
+  height: 40px;
+  left: 250px;
+  top: 30.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 44px;
+}
+
+.register .login {
+  text-align: center;
+}
+
+.register .login .link {
+  color: #1b7ff0;
+  text-decoration: none;
+}
+
+.register .login .link:hover {
+  color: rgb(243, 141, 9);
+}
+
+@media (max-width: 991px) {
+  .register {
+    margin-left: 10%;
+  }
+
+  .job {
+    margin-left: 10%;
+  }
+}

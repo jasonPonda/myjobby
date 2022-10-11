@@ -1,0 +1,151 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.3s ease-in;
+  height: 90px;
+  overflow: hidden;
+  /*   background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%); */
+}
+
+.navbar .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 85rem;
+  margin: auto;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.logo {
+  text-decoration: none;
+  color: rgb(25, 54, 54);
+  font-size: 25px;
+  height: auto;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+li.nav-item:hover {
+  cursor: pointer;
+}
+
+.navbar .nav-menu a {
+  color: rgb(25, 54, 54);
+  text-decoration: none;
+}
+
+.navbar .nav .logo {
+  width: 250px;
+  height: auto;
+}
+
+.navbar .nav-menu {
+  display: flex;
+}
+
+.navbar .nav-item {
+  padding: 2rem;
+  font-weight: 500;
+}
+
+.btn0 {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: all 0.4s;
+  background-color: rgb(236, 117, 117);
+  border-radius: 30px;
+}
+
+.btn0:hover {
+  background-color: rgb(214, 11, 11);
+}
+
+.btn1 {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+  background-color: transparent;
+  color: rgb(248, 20, 20);
+  outline: none;
+  border: 2px solid rgb(248, 20, 20);
+  border-radius: 30px;
+}
+
+.btn1:hover {
+  background-color: rgb(214, 11, 11);
+  transition: all 0.4s;
+  color: rgb(25, 54, 54);
+  border: none;
+  outline: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    max-width: 100%;
+    /*     background-color: #21d4fd;
+    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%); */
+  }
+
+  .navbar .nav {
+    max-width: 100%;
+  }
+
+  .hamburger {
+    display: block;
+    background: rgb(25, 54, 54);
+    cursor: pointer;
+  }
+
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 90px;
+    flex-direction: column;
+    height: 90vh;
+    z-index: 999;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: inset 5em 5em rgba(255, 233, 199, 0.4);
+  }
+
+  .navbar .nav-menu a {
+    color: rgb(25, 54, 54);
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+
+  .nav-item {
+    margin: 1rem;
+  }
+
+  .navbar .nav .logo {
+    width: 150px;
+  }
+
+  .btn0 {
+    margin-top: 0.5rem;
+  }
+}

@@ -1,0 +1,113 @@
+.log {
+  position: absolute;
+  margin: 10rem 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff1e1;
+  border-radius: 60px;
+  width: 500px;
+  height: 600px;
+}
+
+.log h1 {
+  color: rgb(67, 67, 167);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.log .contentBx {
+  margin-top: 5rem;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  margin-top: 160px;
+  margin-left: 20px;
+}
+
+.remember {
+  margin: 20px;
+  top: 325px;
+  margin-left: 50px;
+}
+
+.log .separed {
+  margin-top: 3rem;
+}
+
+.log .separed .right {
+  position: absolute;
+  width: 150px;
+  height: 0px;
+  left: 69px;
+  top: 26rem;
+  border: 1px solid #000000;
+  transform: rotate(0.28deg);
+}
+
+.log .separed .or {
+  position: absolute;
+  width: 35px;
+  height: 40px;
+  left: 250px;
+  top: 24.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 44px;
+}
+
+.log .separed .left {
+  position: absolute;
+  width: 150px;
+  height: 0px;
+  left: 300px;
+  top: 26rem;
+  border: 1px solid #000000;
+  transform: rotate(0.28deg);
+}
+
+.log input[type="submit"].google {
+  background: #bb370d;
+  margin-bottom: 2rem;
+}
+
+.log input[type="submit"].google:hover {
+  background: rgb(247, 189, 112);
+  color: #000000;
+  transition-property: all 0.4s;
+}
+
+.log img {
+  z-index: 1;
+  position: absolute;
+  width: 27px;
+  height: 28px;
+  left: 130px;
+  top: 28.5rem;
+}
+
+.log .login {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.log .login .link {
+  color: #1b7ff0;
+  text-decoration: none;
+}
+
+.log .login .link:hover {
+  color: rgb(243, 141, 9);
+}
+
+@media (max-width: 991px) {
+  .log {
+    margin-left: 10%;
+  }
+}
