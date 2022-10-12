@@ -1,24 +1,22 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+/* import Compagny from "./Company"; */
 import "./Register.css";
+/* import Student from "./Student"; */
 
 const Register = () => {
-  function handleSubmit(e) {
-    console.log("you clicked something");
-  }
-
   return (
-    <section className="register">
+    <section className="regis">
       <div className="job">
         <h1>THESTUDENT</h1>
-        <form onClick={handleSubmit}>
-          <button type="button" className="searcher">
-            Job searcher
-          </button>
-          <button type="button" className="applier">
-            Job applier
-          </button>
-          <input type="submit" value="Next" className="sign" />
+        <form>
+          <Link to="/student">
+            <input type="button" className="searcher" value="Job searcher" />
+          </Link>
+
+          <Link to="/company">
+            <input type="button" className="applier" value="Job applier" />
+          </Link>
         </form>
       </div>
     </section>

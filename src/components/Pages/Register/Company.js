@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import google from "../../../assets/google.png";
 import "./Register.css";
 
-const Student = () => {
+const Compagny = () => {
   const { register, handleSubmit } = useForm({
     defaultValues: {
       firstName: "",
@@ -13,20 +13,22 @@ const Student = () => {
       password: "",
     },
   });
+
   return (
     <section className="register">
       <div className="contentBox">
         <h1>THESTUDENT</h1>
+
         <div className="Formcontent">
           <form className="values" onSubmit={handleSubmit(console.log)}>
             <input
-              {...register("firstName", { required: true })}
-              placeholder="First name"
+              {...register("company Name", { required: true })}
+              placeholder="Company name"
             />
 
             <input
-              {...register("familyName", { required: true })}
-              placeholder="Family name"
+              {...register("telephoneNumber", { required: true })}
+              placeholder="Telephone Number"
             />
 
             <input
@@ -71,4 +73,4 @@ const Student = () => {
   );
 };
 
-export default Student;
+export default Compagny;

@@ -9,6 +9,8 @@ import Register from "./components/Pages/Register/Register";
 import Login from "./components/Pages/Login/Login";
 import Navbar from "./components/Navbar/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
+import Student from "./components/Pages/Register/Student";
+import Company from "./components/Pages/Register/Company";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/student" element={<Student />} />
+          <Route path="/company" element={<Company />} />
           <Route path="/login" element={<Login />} />
         </Routes>
       </ScrollToTop>

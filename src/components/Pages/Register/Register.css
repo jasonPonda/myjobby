@@ -1,6 +1,6 @@
-/* .register {
+.register {
   position: absolute;
-  margin: 10rem 40%;
+  margin: 20rem 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,13 +8,14 @@
   background: #fff1e1;
   border-radius: 60px;
   width: 500px;
-  height: 700px;
-} */
+  height: 45rem;
+}
 
+.job,
 .register h1 {
   color: rgb(67, 67, 167);
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -22,6 +23,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 483px;
   height: 400px;
@@ -30,12 +32,12 @@
   border-radius: 150px;
 }
 
-button[type="button"] {
+input[type="button"] {
   width: 344px;
   height: 55px;
   padding: 15px;
-  margin-top: 10px;
-  margin-left: 70px;
+  margin-top: 30px;
+
   border-radius: 30px;
   font-family: "Inter";
   font-style: normal;
@@ -46,7 +48,7 @@ button[type="button"] {
   cursor: pointer;
 }
 
-button[type="button"]:focus {
+input[type="button"]:hover {
   color: #fff;
   background: #f88215;
 }
@@ -117,7 +119,7 @@ input[type="submit"].google:hover {
   width: 27px;
   height: 28px;
   left: 130px;
-  top: 36.3rem;
+  top: 36.8rem;
 }
 
 .register .separed .right {

@@ -1,6 +1,6 @@
 .log {
   position: absolute;
-  margin: 10rem 40%;
+  margin: 20rem 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,8 +88,8 @@ input[type="checkbox"] {
   position: absolute;
   width: 27px;
   height: 28px;
-  left: 130px;
-  top: 28.5rem;
+  left: 140px;
+  top: 29rem;
 }
 
 .log .login {
